@@ -18,11 +18,15 @@ We present an unsupervised learning approach for optical flow estimation by impr
 
 This repository includes(is coming):
 
-- Training scripts based on Python and PyTorch; and
-- inferring scripts for several benchmarks; and 
-- pretrain models. 
+- inferring scripts; and 
+- pretrain model; and 
+- Training scripts 
 
+## Usage
 
+Please first install the environments following `how_to_install.md`.
+
+Run `python3 test.py` to test our trained model on KITTI 2015 dataset. Note that Cuda is needed.
     
 ## Acknowledgement
-Part of our codes are adapted from [IRR-PWC](https://github.com/visinf/irr) and [UnFlow](https://github.com/simonmeister/UnFlow), we thank the authors for their contributions.
+Part of our codes are adapted from [IRR-PWC](https://github.com/visinf/irr), [UnFlow](https://github.com/simonmeister/UnFlow) [ARFlow](https://github.com/lliuz/ARFlow) and [UFlow](https://github.com/google-research/google-research/tree/master/uflow), we thank the authors for their contributions.
