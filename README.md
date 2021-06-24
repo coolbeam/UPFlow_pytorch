@@ -6,11 +6,12 @@ Megvii Technology, University of Electronic Science and Technology of China
 
 [[Preprint](https://arxiv.org/abs/2012.00212)]
 
-    @article{luo2020upflow,
-      title={UPFlow: Upsampling Pyramid for Unsupervised Optical Flow Learning},
+    @inproceedings{luo2021upflow,
+      title={Upflow: Upsampling pyramid for unsupervised optical flow learning},
       author={Luo, Kunming and Wang, Chuan and Liu, Shuaicheng and Fan, Haoqiang and Wang, Jue and Sun, Jian},
-      journal={arXiv preprint arXiv:2012.00212},
-      year={2020}
+      booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+      pages={1045--1054},
+      year={2021}
     }
 
 ## Introduction
