@@ -1701,7 +1701,7 @@ class tools():
 
     @classmethod
     def clear(cls):
-        os.system("clear")  # 清屏
+        os.system("clear")
 
     @classmethod
     def random_flag(cls, threshold_0_1=0.5):
@@ -1723,3 +1723,8 @@ class tools():
         img = img * 255
         img = img.astype('uint8')
         return img
+
+    @classmethod
+    def check_dir(cls, path):
+        if not os.path.exists(path):
+            os.makedirs(path)

@@ -295,7 +295,7 @@ class UPFlow_net(tools.abstract_model):
             self.occ_type = 'for_back_check'
             self.alpha_1 = 0.1
             self.alpha_2 = 0.5
-            self.occ_check_obj_out_all = 'obj'
+            self.occ_check_obj_out_all = 'obj'  # if boundary dilated warping is used, here should be obj
             self.stop_occ_gradient = False
             self.smooth_level = 'final'  # final or 1/4
             self.smooth_type = 'edge'  # edge or delta
@@ -377,7 +377,7 @@ class UPFlow_net(tools.abstract_model):
             if self.conf.input_or_sp_input == 1:
                 im1, im2 = im1_ori, im2_ori
             else:
-                im1, im2 = input_dict['im1_sp'], input_dict['im2_sp']  # change the input image to special input image
+                im1, im2 = input_dict['im1_sp'], input_dict['im2_sp']  # change the input image to special input image and the original images are used for loss computing
         else:
             im1, im2 = im1_ori, im2_ori
 

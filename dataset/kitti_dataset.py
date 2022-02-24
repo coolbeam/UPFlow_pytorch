@@ -15,6 +15,10 @@ from torchvision import transforms as vision_transforms
 import imageio
 import png
 
+'''
+Here tensorflow is not necessary, it is needed in my early implementation from UnFlow and DDFlow.
+'''
+
 warnings.filterwarnings('ignore')
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '1'  # or any {'0', '1', '2'}, ignore tensorflow log information
 '''
@@ -264,7 +268,7 @@ class kitti_train:
     class kitti_data_with_start_point(Dataset):
         class config(tools.abstract_config):
 
-            def __init__(self, ):
+            def __init__(self, **kwargs):
                 self.crop_size = (256, 832)  # original size is (512,1152), we directly set as (256, 832) during training
                 self.rho = 8
                 self.swap_images = True
@@ -272,6 +276,7 @@ class kitti_train:
                 self.repeat = None  # if repeat the dataset in one epoch
                 self.horizontal_flip_aug = True
                 self.mv_type = None  # '2015' or '2012'
+                self.update(kwargs)
 
             def __call__(self):
                 return kitti_train.kitti_data_with_start_point(self)

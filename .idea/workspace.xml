@@ -19,11 +19,28 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ca67ac4-bbf1-403d-a026-4535b682c509" name="Default Changelist" comment="" />
+    <list default="true" id="7ca67ac4-bbf1-403d-a026-4535b682c509" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/scripts/simple_train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/UPFlow_pytorch.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/UPFlow_pytorch.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/kitti_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/kitti_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/pwc_irr_bi_arflow.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/upflow.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/upflow.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ex_runner.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/ex_runner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/tools.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -37,6 +54,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -61,5 +79,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="664" y="258" key="SettingsEditor" timestamp="1644474400588">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="664" y="258" key="SettingsEditor/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1644474400588" />
   </component>
 </project>
