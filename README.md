@@ -1,6 +1,6 @@
 # <center> [CVPR2021] UPFlow: Upsampling Pyramid for Unsupervised Optical Flow Learning
 
-<h4 align="center"> Kunming Luo$^1$, Chuan Wang$^1$, Shuaicheng Liu$^2$, Haoqiang Fan$^1$, Jue Wang$^1$, Jian Sun$^1$</h4>
+<h4 align="center"> Kunming Luo<sup>1</sup>, Chuan Wang<sup>1</sup>, Shuaicheng Liu<sup>2</sup>, Haoqiang Fan<sup>1</sup>, Jue Wang<sup>1</sup>, Jian Sun<sup>1</sup></h4>
 
 <h4 align="center"> 1. Megvii Technology, 2. University of Electronic Science and Technology of China</h4>
 
